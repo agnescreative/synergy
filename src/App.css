@@ -1,0 +1,18 @@
+.type::after {
+  content: "" !important;
+  animation: cursor 0.8s infinite ease-in-out !important;
+  border-right: 3px solid currentColor !important;
+  opacity: 1;
+  margin-left: 3px !important;
+  padding-right: 2px !important;
+}
+
+@keyframes cursor {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}

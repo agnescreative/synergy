@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Neue Helvetica";
+  src: url("/public/assets/fonts/Helvetica Neue LT 65 Medium.ttf");
+}
+@font-face {
+  font-family: "Neue Helvetica Light";
+  src: url("/public/assets/fonts/Helvetica Neue LT 45 Light.ttf");
+}
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("/public/assets/fonts/SF-Pro-Display-Regular.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.myContainer {
+  width: 100%;
+  max-width: 1440px;
+}
