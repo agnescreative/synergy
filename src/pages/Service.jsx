@@ -53,19 +53,19 @@ const Service = () => {
                   transition={{ duration: 1.1 }}
                   className="h-full"
                 >
-                  <div className="sticky top-20 self-start">
+                  {service.image && <div className="sticky top-20 self-start">
                     <img
                       src={service.image}
                       alt={service.title}
                       className="w-full max-w-[600px] h-auto object-cover rounded-2xl" // Added some styling
                     />
-                  </div>
+                  </div>}
                 </motion.div>
                 <motion.div
                   initial={{ opacity: 0, x: 50 }} // Initial state
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ duration: 1.1 }} // Smooth transition
-                  className={"lg:w-1/2 mx-auto"}
+                  className={`${service.image && "lg:w-1/2"}  mx-auto`}
                 >
                   <div
                     className={

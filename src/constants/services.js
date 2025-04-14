@@ -797,7 +797,7 @@ We strongly believe in the effectiveness of physiotherapy for hip issues. Our sk
       name: "Arthritis",
       title:
         "Don't let arthritis write your story breakthrough treatments for pain-free living!",
-      imagePath: "/assets/services/arthritis/banner.jpg",
+      imagePath: "/assets/services/arthritis/banner.png",
     },
     conditions: [
       "Hip Arthrosis",
@@ -2220,7 +2220,7 @@ Our team of experienced physiotherapists will work closely with you to understan
     pageContentData: {
       name: "Urinary Incontinence",
       title:
-        "Freedom from worry, freedom to live discreet, effective solutions!",
+        "Freedom from worry, freedom from embarrassment with effective solutions!",
       imagePath: "/assets/services/urinary/banner.png",
     },
     FAQs: [
@@ -2362,8 +2362,6 @@ Our team of understanding physiotherapists specializes in women's health. They'l
           "You should consult a healthcare provider if:\n• The sore doesn’t improve within 48 hours despite care.\n• There are signs of infection, such as redness, swelling, foul smell, fever, or pus-like drainage.",
       },
     ],
-
-    image: "/assets/services/bed/1.png",
     content: `# Heal and Prevent: Bed Sore Treatment and Prevention at Synergy Physiotherapy
 Bed sores, also known as pressure ulcers, can be a painful complication for those with limited mobility. But fear not, Synergy Physiotherapy Hospital and Rehabilitation Care offers effective treatment and prevention strategies to help you heal and avoid future occurrences.
 

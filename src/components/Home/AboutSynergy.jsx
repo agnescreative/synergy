@@ -66,11 +66,8 @@ export const AboutSynergy = () => {
             transition={{ duration: 1.1 }} // Smooth transition
             className={"w-full justify-items-start lg:col-span-3"}
           >
-            <div className={"flex flex-col items-start space-y-6 lg:space-y-9"}>
-              <p className={"font-serif text-5xl  tracking-wider"}>
-                About Us - Synergy Physiotherapy Hospital and Rehabilitation
-                Care
-              </p>
+            <div className={"flex flex-col items-start space-y-6"}>
+              <p className={"font-serif text-5xl  tracking-wider"}>About Us</p>
               <div className="space-y-2 text-justify">
                 <p className={"text-base"}>
                   Synergy Physiotherapy Hospital and Rehabilitation Care is more

@@ -29,7 +29,7 @@ export const RoboticsInformation = () => {
           className={"w-full flex justify-end"}
         >
           <img
-            src={"/assets/roboticsinfo.jpg"}
+            src={"/assets/robotics.jpg"}
             className={"w-auto h-full rounded-2xl"}
             alt={"about-img"}
           />
@@ -108,18 +108,17 @@ export const RoboticsInformation = () => {
                 </p>
               </div>
             </div>
-            <p className="text-lg">
-              <span className="font-semibold">
-                Experience the Next Generation of Physiotherapy Robotic-assisted
-              </span>{" "}
-              rehabilitation is transforming the way we heal, offering a{" "}
-              <span className="font-semibold">
-                faster, safer, and more effective path to recovery.
-              </span>{" "}
-              Discover how{" "}
-              <span className="font-semibold">Synergy Physiotherapy</span> can
-              help you move better, feel stronger, and live pain-free.
-            </p>
+            <div className="space-y-1 text-justify">
+              <p className="text-lg">
+                Experience the Next generation of Robotic Assisted physiotherapy
+                and Rehabilitation at Synergy, which offers faster, safer, and
+                more effective recovery.
+              </p>
+              <p className="text-lg">
+                Discover how Synergy Physiotherapy Hospital and Rehabilitation
+                care can help you move better, feel stronger and live pain free
+              </p>
+            </div>
           </div>
 
           <div className={"flex justify-center lg:justify-start"}>

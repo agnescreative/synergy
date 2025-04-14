@@ -6,18 +6,15 @@ import Container from "../Container.jsx";
 const images = [
   "/assets/infrastructure/1.png",
   "/assets/infrastructure/2.png",
-  "/assets/infrastructure/3.png",
+  "/assets/infrastructure/3.jpg",
   "/assets/infrastructure/4.png",
   "/assets/infrastructure/5.png",
-  "/assets/infrastructure/6.png",
-  "/assets/infrastructure/7.png",
-  "/assets/infrastructure/8.png",
+  "/assets/infrastructure/6.jpg",
+  "/assets/infrastructure/7.jpg",
+  "/assets/infrastructure/8.jpg",
   "/assets/infrastructure/9.png",
-  "/assets/infrastructure/10.png",
+  "/assets/infrastructure/10.jpg",
   "/assets/infrastructure/11.png",
-  "/assets/infrastructure/12.png",
-  "/assets/infrastructure/13.png",
-  "/assets/infrastructure/14.png",
 ];
 
 export const OurInfrastructure = () => {

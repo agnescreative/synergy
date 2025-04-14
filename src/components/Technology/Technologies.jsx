@@ -139,7 +139,8 @@ export const Technologies = () => {
             >
               <motion.div>
                 <img
-                  src={"/assets/technologies/myomed.png"}
+                  src={"/assets/technologies/myomed.jpg"}
+                  className="w-full max-w-[550px] h-auto object-cover rounded-2xl"
                   alt={"vision-img"}
                 />
               </motion.div>
@@ -477,8 +478,9 @@ export const Technologies = () => {
             >
               <motion.div>
                 <img
-                  src={"/assets/technologies/placeholder.png"}
+                  src={"/assets/technologies/cycle_motus.png"}
                   alt={"vision-img"}
+                  className="w-full max-w-[550px] h-auto object-cover rounded-2xl "
                 />
               </motion.div>
               <motion.div className={"lg:w-1/2 mx-auto space-y-8"}>
@@ -552,8 +554,8 @@ export const Technologies = () => {
                     SG2
                   </p>
                   <p className="text-justify">
-                    ZEPU SG2 is a digital physical and occupational assessment
-                    and training system designed to support upper limb
+                    SG2 is a digital physical and occupational assessment and
+                    training system designed to support upper limb
                     rehabilitation through intelligent, customized training
                     programs. Based on individual evaluation results, users can
                     engage in exercises with adjustable time settings and
@@ -583,8 +585,7 @@ export const Technologies = () => {
                     </ul>
                   </p>
                   <p className="text-justify">
-                    ZEPU SG2 features engaging, AI-powered training modules such
-                    as:
+                    SG2 features engaging, AI-powered training modules such as:
                     <ul className="list-disc list-inside mt-2">
                       <li>Interactive cognitive exercises</li>
                       <li>Feedback-based therapy</li>

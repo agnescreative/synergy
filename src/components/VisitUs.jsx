@@ -14,10 +14,10 @@ export const VisitUs = () => {
             <p className={"font-serif-light text-3xl  md:text-4xl lg:text-5xl"}>
               Discover Your Healing Journey
             </p>
-            <div className={"max-w-lg w-[90%]"}>
-              <p className={"md:text-lg text-center"}>
-                Visit us at our Tarsali location for comprehensive physiotherapy
-                and rehabilitation services tailored to you.
+            <div className={"max-w-xl"}>
+              <p className={"md:text-lg "}>
+                Visit us at our Tarsali/Mangalpur location for comprehensive
+                physiotherapy and rehabilitation services tailored to you.
               </p>
             </div>
           </div>

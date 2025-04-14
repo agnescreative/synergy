@@ -44,12 +44,12 @@ const Contact = () => {
             <div className="space-y-1">
               <p className="text-2xl text-neutral-800">Mail:</p>
               <p className="text-lg text-neutral-600">
-                info@synergyphysiotherapycentre.com
+                info@synergyphysiocare.com
               </p>
             </div>
             <div className="space-y-1">
               <p className="text-2xl text-neutral-800">Phone:</p>
-              <p className="text-lg text-neutral-600">0265 298 0020</p>
+              <p className="text-lg text-neutral-600">+916354101573</p>
             </div>
           </div>
           <div>
@@ -71,14 +71,14 @@ const Contact = () => {
             <div className="space-y-1">
               <p className="text-2xl text-neutral-800">Address:</p>
               <p className="text-lg text-neutral-600">
-                2nd floor Sakar East complex, Opp Bansal mall, Soma Talav -
-                Tarsali Ring Rd, Vadodara, Gujarat, 390009
+                3rd floor - Mebal Plaza Opp Manjalpur Sports complex Manjalpur,
+                Vadodara, Gujarat. 390011
               </p>
             </div>
             <div className="space-y-1">
               <p className="text-2xl text-neutral-800">Mail:</p>
               <p className="text-lg text-neutral-600">
-                info@synergyphysiotherapycentre.com
+                info@synergyphysiocare.com
               </p>
             </div>
             <div className="space-y-1">

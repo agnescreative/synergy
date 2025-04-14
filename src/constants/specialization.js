@@ -5,8 +5,10 @@ export const specializations = [
       name: "Cardiopulmonary Health",
       title:
         "Advanced Orthopaedic and Musculoskeletal Physiotherapy & Rehabilitation",
-      imagePath: "/assets/specializations/cardiopulmonary.png",
+      imagePath: "/assets/specializations/cardiopulmonary.jpg",
     },
+    image: "/assets/specializations/cardiopulmonary2.jpg",
+
     whyUs: [
       "We have fully equipped therapy and exercise department having motorized treadmill, Elliptical trainer like equipments.",
       "Our weight loss program is an integrated approach by focusing on both diet as well as exercise to help people lose weight quickly",
@@ -36,7 +38,7 @@ export const specializations = [
       name: "Advanced Ortho Rehabilitation",
       title:
         "Advanced Orthopaedic and Musculoskeletal Physiotherapy & Rehabilitation",
-      imagePath: "/assets/specializations/ortho.png",
+      imagePath: "/assets/specializations/ortho.webp",
     },
     image: "/assets/specializations/ortho2.png",
     whyUs: [
@@ -117,10 +119,9 @@ Conditions commonly treated :
     pageContentData: {
       name: "Women's Health",
       title:
-        "Advanced Orthopaedic and Musculoskeletal Physiotherapy & Rehabilitation",
+        "Advance Physiotherapy in women's with conditions like Ante natal, Post natal, Post C section, general fitness.",
       imagePath: "/assets/specializations/womens-health.png",
     },
-    image: "/assets/specializations/womens-health2.png",
     whyUs: [
       "Our center is equipped with most advanced Bio feedback Based Instrument for training your pelvicfloor muscles,whose weakness leads to Urinary Incontinence & many other health problems in womens.",
       "We have ainnovative & experienced team to help pregnant womens & New mother find Relief from Back pain/muscle &joint aches, post c- section pain etc.",

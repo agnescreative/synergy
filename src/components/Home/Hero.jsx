@@ -2,12 +2,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, EffectFade } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-fade";
-const banner1 = "/assets/hero/3.jpg";
-const banner2 = "/assets/hero/2.jpg";
-const banner3 = "/assets/hero/1.jpg";
-// const banner1 = "/assets/banner1.jpg";
-// const banner2 = "/assets/banner2.jpg";
-// const banner3 = "/assets/banner3.jpg";
+const banner1 = "/assets/hero/03.png";
+const banner2 = "/assets/hero/02.png";
+const banner3 = "/assets/hero/01.png";
 import { motion } from "framer-motion";
 
 const banners = [banner1, banner2, banner3];
@@ -25,19 +22,11 @@ export const Hero = () => {
             initial="hidden"
             animate="visible"
             variants={textVariants}
-            className="text-6xl lg:text-[72px] font-bold text-white tracking-wide mb-4 sm:mb-6 text-center"
-          >
-            Synergy
-          </motion.h1>
-          <motion.h2
-            initial="hidden"
-            animate="visible"
-            variants={textVariants}
             transition={{ delay: 0.3 }}
             className="text-2xl lg:text-[68px] text-center text-white font-light font-serif-light leading-snug"
           >
             Rediscover your potential with guidance of our Experts
-          </motion.h2>
+          </motion.h1>
         </div>
         <div className="w-full h-[90vh] relative overflow-hidden">
           <Swiper

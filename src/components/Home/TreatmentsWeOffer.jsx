@@ -6,46 +6,45 @@ import { CircleChevronLeft, CircleChevronRight } from "lucide-react";
 import { CarouselCard } from "./CarouselCard.jsx";
 import { motion, useInView } from "framer-motion";
 
-
 const cardsData = [
   {
     title: "Obesity",
     description:
       "We offer tailored obesity management to enhance mobility and health, blending expert care with effective weight-loss strategies. Read more...",
-    imageUrl: "/assets/carousel/obesity.png",
+    imageUrl: "/assets/carousel/obesity.jpg",
   },
   {
     title: "Knee Pain",
     description:
       "We offer tailored obesity management to enhance mobility and health, blending expert care with effective weight-loss strategies. Read more...",
-    imageUrl: "/assets/carousel/kneepain.png",
+    imageUrl: "/assets/carousel/kneepain.jpeg",
     href: "/services/ligament-injury",
   },
   {
     title: "Back Pain",
     description:
       "The spine is a vital part of the body that enables movement and provides essential support. Comprising 33 individual vertebrae, it’s designed to balance strength with flexibility. Read more...",
-    imageUrl: "/assets/carousel/backpain.png",
+    imageUrl: "/assets/carousel/backpain.jpg",
   },
   {
     title: "Urine Leakage",
     description:
       "Regain control and confidence with our advanced urine leakage management solutions. Our tailored approach focuses on effective treatments to improve bladder function and overall well-being. Read more....",
-    imageUrl: "/assets/carousel/urineleakage.png",
+    imageUrl: "/assets/carousel/urineleakage.jpg",
     href: "/services/urinary-incontinence",
   },
   {
     title: "Shoulder Pain",
     description:
       "Experience targeted relief from shoulder pain with our specialized treatments. We address the underlying causes to restore strength, flexibility, and pain-free movement. Read more...",
-    imageUrl: "/assets/carousel/shoulderpain.png",
+    imageUrl: "/assets/carousel/shoulderpain.jpg",
     href: "/services/frozen-shoulder",
   },
   {
     title: "Paralysis",
     description:
       "Our expert rehabilitation programs for paralysis are designed to enhance motor function and promote recovery. We focus on personalized therapies to help regain independence and improve quality of life. Read more...",
-    imageUrl: "/assets/carousel/paralysis.png",
+    imageUrl: "/assets/carousel/paralysis.webp",
     href: "/services/paralysis",
   },
 ];
