@@ -16,7 +16,7 @@ export const VisitUs = () => {
             </p>
             <div className={"max-w-xl"}>
               <p className={"md:text-lg "}>
-                Visit us at our Tarsali/Mangalpur location for comprehensive
+                Visit us at our Tarsali / Manjalpur location for comprehensive
                 physiotherapy and rehabilitation services tailored to you.
               </p>
             </div>

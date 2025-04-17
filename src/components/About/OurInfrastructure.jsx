@@ -15,6 +15,9 @@ const images = [
   "/assets/infrastructure/9.png",
   "/assets/infrastructure/10.jpg",
   "/assets/infrastructure/11.png",
+  "/assets/infrastructure/12.jpg",
+  "/assets/infrastructure/14.jpg",
+  "/assets/infrastructure/16.jpg",
 ];
 
 export const OurInfrastructure = () => {

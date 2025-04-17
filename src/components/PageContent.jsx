@@ -164,7 +164,7 @@ export const PageContent = ({
         <img
           src={imagePath}
           alt="Synergy"
-          className="w-full h-auto object-cover  xl:max-h-[600px]"
+          className="w-full h-auto object-cover  xl:max-h-[700px]"
         />
       </div>
     </>

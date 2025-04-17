@@ -5,9 +5,10 @@ import "swiper/css/effect-fade";
 const banner1 = "/assets/hero/03.png";
 const banner2 = "/assets/hero/02.png";
 const banner3 = "/assets/hero/01.png";
+const banner4 = "/assets/hero/04.jpg";
 import { motion } from "framer-motion";
 
-const banners = [banner1, banner2, banner3];
+const banners = [banner1, banner2, banner3, banner4];
 const textVariants = {
   hidden: { opacity: 0, y: 50 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } },
@@ -28,7 +29,7 @@ export const Hero = () => {
             Rediscover your potential with guidance of our Experts
           </motion.h1>
         </div>
-        <div className="w-full h-[90vh] relative overflow-hidden">
+        <div className="w-full h-auto md:h-[100vh] relative overflow-hidden">
           <Swiper
             modules={[Autoplay, EffectFade]}
             effect="fade"
@@ -46,7 +47,7 @@ export const Hero = () => {
                   <img
                     src={banner}
                     alt={`banner-${index + 1}`}
-                    className="w-full h-full object-cover object-top"
+                    className="w-full h-full object-cover object-center"
                   />
                 </div>
               </SwiperSlide>

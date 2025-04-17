@@ -39,7 +39,7 @@ export const OurPeople = () => {
                 professionals, compassionate caregivers, and innovative
                 thinkers. United by a shared passion for healing, we work
                 together to provide personalized care and cutting-edge
-                solutions, ensuring every patient’s journey is unique and
+                solutions, ensuring every patient&apos;s journey is unique and
                 effective.
               </p>
             </div>
@@ -49,7 +49,13 @@ export const OurPeople = () => {
             {leaders.map((member, index) => {
               return (
                 <div key={index} className={"space-y-3"}>
-                  <img src={member.image} alt="" />
+                  <div className="w-full h-auto xl:h-[300px]">
+                    <img
+                      src={member.image}
+                      alt=""
+                      className="object-cover h-full w-full"
+                    />
+                  </div>
                   <div className={"xl:max-w-[80%]"}>
                     <p className={"font-serif text-3xl"}>{member.name}</p>
                     <p className={"font-serif"}>{member.role}</p>

@@ -37,7 +37,7 @@ const hospitalityCards = [
     text: "Assisted living care",
   },
   {
-    imagePath: "/assets/hospitalities/7.png",
+    imagePath: "/assets/hospitalities/7.jpg",
     text: "24*7 nursing care",
   },
   {

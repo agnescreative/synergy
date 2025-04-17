@@ -91,7 +91,7 @@ export const Footer = () => {
                   Tarsali Ring Rd, Vadodara, Gujarat 390009
                 </p>
               </div>
-              <p>0265 298 0020</p>
+              <p>+916354101573</p>
               <div className="flex justify-start space-x-4">
                 <img src="/assets/socialIcons/facebook.svg" alt="facebook" />
                 <img src="/assets/socialIcons/twitter.svg" alt="twitter" />
