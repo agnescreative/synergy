@@ -4,20 +4,18 @@ import { useRef } from "react";
 import Container from "../Container.jsx";
 
 const images = [
-  "/assets/infrastructure/1.png",
-  "/assets/infrastructure/2.png",
+
   "/assets/infrastructure/3.jpg",
-  "/assets/infrastructure/4.png",
-  "/assets/infrastructure/5.png",
   "/assets/infrastructure/6.jpg",
   "/assets/infrastructure/7.jpg",
   "/assets/infrastructure/8.jpg",
   "/assets/infrastructure/9.png",
+  "/assets/infrastructure/18.jpg",
   "/assets/infrastructure/10.jpg",
-  "/assets/infrastructure/11.png",
   "/assets/infrastructure/12.jpg",
-  "/assets/infrastructure/14.jpg",
   "/assets/infrastructure/16.jpg",
+  "/assets/infrastructure/17.jpg",
+  "/assets/infrastructure/19.jpg",
 ];
 
 export const OurInfrastructure = () => {

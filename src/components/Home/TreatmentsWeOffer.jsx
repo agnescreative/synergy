@@ -12,19 +12,21 @@ const cardsData = [
     description:
       "We offer tailored obesity management to enhance mobility and health, blending expert care with effective weight-loss strategies. Read more...",
     imageUrl: "/assets/carousel/obesity.jpg",
+    href: "/services/obesity",
   },
   {
     title: "Knee Pain",
     description:
-      "We offer tailored obesity management to enhance mobility and health, blending expert care with effective weight-loss strategies. Read more...",
+      "Knee pain is a common complaint that can result from injury, arthritis, overuse, or other medical conditions. Read more...",
     imageUrl: "/assets/carousel/kneepain.jpeg",
-    href: "/services/ligament-injury",
+    href: "/services/knee-pain",
   },
   {
     title: "Back Pain",
     description:
       "The spine is a vital part of the body that enables movement and provides essential support. Comprising 33 individual vertebrae, it’s designed to balance strength with flexibility. Read more...",
     imageUrl: "/assets/carousel/backpain.jpg",
+    href: "/services/spine-treatment",
   },
   {
     title: "Urine Leakage",
@@ -34,7 +36,7 @@ const cardsData = [
     href: "/services/urinary-incontinence",
   },
   {
-    title: "Shoulder Pain",
+    title: "Frozen Shoulder",
     description:
       "Experience targeted relief from shoulder pain with our specialized treatments. We address the underlying causes to restore strength, flexibility, and pain-free movement. Read more...",
     imageUrl: "/assets/carousel/shoulderpain.jpg",

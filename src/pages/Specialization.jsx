@@ -88,12 +88,20 @@ const Specialization = () => {
                   />
                 </div>
               )}
-              <div className={" space-y-8"}>
+              <div className={" space-y-4"}>
+              <div className="pr-4 w-full lg:w-[50vw]">
+                  <MarkdownRenderer>{specialization.content}</MarkdownRenderer>
+                  </div>
                 <p className="font-serif text-5xl text-black">
                   Our Rehab Process
                 </p>
                 <div>
+                  <div className="pr-4 w-full lg:w-[50vw]">
                   <MarkdownRenderer>{specialization.process}</MarkdownRenderer>
+                  </div>
+                  
+
+
                 </div>
               </div>
             </div>

@@ -4,7 +4,7 @@ export const specializations = [
     pageContentData: {
       name: "Cardiopulmonary Health",
       title:
-        "Advanced Orthopaedic and Musculoskeletal Physiotherapy & Rehabilitation",
+        "Breathe Easy, Heart Strong: Cardiopulmonary Care That Empowers.",
       imagePath: "/assets/specializations/cardiopulmonary.jpg",
     },
     image: "/assets/specializations/cardiopulmonary2.jpg",
@@ -15,13 +15,28 @@ export const specializations = [
       "We Endeavour to provide you with the Right knowledge therapeutic techniques and equipments, all designed to gives you the best chance of optimizing your health.",
       "Our physiotherapist with exercise physiology knowledge can design weight Reduction Programs for patients with back pains, Osteoarthritis knee, Rheumatoid arthritis & various heart conditions and help them to get back into the shape.",
     ],
-    process: `
+    content:`# Breathe Easier, Live Fuller: Synergy Physiotherapy's Respiratory Rehabilitation Program
+Struggling to catch your breath? Shortness of breath, wheezing, and chest tightness can significantly impact your daily life. At Synergy Physiotherapy Hospital and Rehabilitation Care, we offer a specialized Respiratory Rehabilitation Program to help you breathe easier and live a more active life.
+
+Our team of experienced physiotherapists understands the challenges of respiratory problems, from COPD and asthma to post-surgery complications. We'll conduct a detailed assessment to identify the root cause of your breathing difficulties and create a personalized treatment plan that may include:
+
+- **Chest Clearance Techniques:** Manual techniques and exercises to help loosen and remove mucus buildup in your airways, improving airflow.
+
+- **Breathing Exercises:** We'll teach you specific breathing techniques to improve lung capacity, control shortness of breath, and reduce anxiety.
+
+- **Strength and Endurance Training:** Strengthening exercises for your respiratory muscles can enhance your ability to breathe more effectively.
+
+- **Education and Self-Management:** We empower you with the knowledge and skills to manage your condition effectively, including proper inhaler technique and medication adherence.
+    `,
+    process: `# 
 - Cardiac Rehab specialist help you to improve the cardio vascular strength & help you do exercises in comfort levels
 - We offer safe, supervised Environment for cardiac Rehabilitation & Reconditioning
 - Returning patients to functional levels and tasks.
 - Our rehab specialist is in touch with your doctor to determine the safe levels of exercises
 - All post cardiac patients exercises are done under proper vital (BP, HR, SPo2) Monitoring by a cardiac rehab specialist.
+
     `,
+    
     conditions: [
       "Asthma",
       "COPD",
@@ -137,7 +152,9 @@ Conditions commonly treated :
 - Ergonomic assessment and postural re-education in various musculoskeletal conditions.
 - Gait training and use of assistive devices after surgery.
 - Stress management and counseling.
+
     `,
+    
     facilities: [
       {
         name: "Myomed",

@@ -44,7 +44,7 @@ const Service = () => {
             <div>
               <div
                 className={
-                  "container mx-auto flex flex-col lg:flex-row w-full justify-between items-center lg:items-start space-y-12 lg:space-y-0 h-full"
+                  "container mx-auto flex flex-col lg:flex-row w-full justify-between items-center lg:items-start space-y-12 lg:space-y-0 h-full gap-5"
                 }
               >
                 <motion.div

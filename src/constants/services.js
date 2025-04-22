@@ -1,5 +1,96 @@
 export const allServices = [
   {
+    slug: "obesity",
+    title: "Obesity",
+    pageContentData: {
+      name: "Obesity",
+      title:
+        "Reclaim your vitality and stride forward, free from the limits of obesity!",
+      imagePath: "/assets/services/obesity/obesity.jpg",
+    },
+    FAQs: [
+      {
+        id: 1,
+        question: "Who can benefit from obesity rehabilitation?",
+        answer:
+          "Anyone struggling with obesity or obesity-related health issues, including those preparing for surgery or seeking to improve their mobility and quality of life.",
+      },
+      {
+        id: 2,
+        question: "What kind of exercises are included?",
+        answer:
+          "We recommend low-impact aerobics activities (walking, cycling, aquatic therapy), strength training, balance exercises, and stretching—always tailored to your current abilities.",
+      },
+      {
+        id: 3,
+        question: "Do I need a doctor’s referral?",
+        answer:
+          "While a referral can be helpful, you can contact us directly to schedule an assessment and begin your personalized program.",
+      },
+    ],
+    image: "/assets/services/obesity/obesity_body.png",
+    content: ` # What is Obesity?
+Obesity is a chronic health condition characterized by excessive accumulation of body fat, leading to increased risk of serious health problems such as diabetes, heart disease, high blood pressure, and joint pain. It can significantly impact mobility, quality of life, and overall well-being.
+# Our Approach to Obesity Management
+At Synergy Physiotherapy and Rehabilitation Center, we offer a comprehensive, multidisciplinary approach to obesity management that goes beyond weight loss. Our programs are designed to help you achieve sustainable results, improve your physical function, and enhance your quality of life.
+# Our Obesity Rehabilitation Program Includes:
+- Personalized Assessment: Every journey begins with a thorough evaluation of your medical history, current physical activity level, and specific challenges related to obesity.
+- Individualized Exercise Plans: Our physiotherapists create tailored exercise programs focusing on safe, effective, and enjoyable activities that suit your abilities and goals. These may include gentle aerobic exercises, strength training, balance work, and flexibility routines.
+- Nutrition Guidance: While our primary focus is physical rehabilitation, we collaborate with nutritionists and dietitians to help you establish healthy eating habits for long-term weight control.
+- Behavioral Support: We provide education, motivation, and counseling to help you overcome barriers, make lasting lifestyle changes, and stay committed to your health journey.
+- Pain and Mobility Management: Our team addresses joint pain, movement restrictions, and other physical limitations to help you move more comfortably and confidently.
+- Pre- and Post-Surgical Support: For patients preparing for or recovering from weight-related surgeries, we offer specialized “prehabilitation” and rehabilitation programs to optimize outcomes.
+Benefits of Our Obesity Rehabilitation
+- Weight Loss and Maintenance: Achieve and sustain healthier body weight through guided exercise and lifestyle changes.
+- Improved Mobility and Function: Restore your ability to move freely and perform daily activities with greater ease.
+- Pain Reduction: Alleviate chronic pain, especially in weight-bearing joints like the knees, hips, and lower back.
+- Enhanced Quality of Life: Enjoy increased energy, confidence, and participation in activities you love.
+- Personalized, Compassionate Care: Our team works closely with you, adapting your plan as you progress and supporting you every step of the way.`,
+  },
+  {
+    slug: "knee-pain",
+    title: "Knee Pain",
+    pageContentData: {
+      name: "Knee Pain",
+      title:
+        "Regain Mobility and Live Pain-Free with Expert Knee Pain Care",
+      imagePath: "/assets/services/kneePain/knee pain hero.jpg",
+    },
+    FAQs: [
+      {
+        id: 1,
+        question: "How soon can I expect relief from knee pain?",
+        answer:
+          "Many patients experience reduced pain and improved function within weeks of starting physiotherapy, though this depends on the severity and cause of your knee pain.",
+      },
+      {
+        id: 2,
+        question: "Is surgery always necessary for knee pain?",
+        answer:
+          "No. Many knee pain cases improve significantly with physiotherapy, exercise, and conservative treatments. Surgery is considered only when these options fail or when structural damage requires it.",
+      },
+      {
+        id: 3,
+        question: "Can I do these exercises at home?",
+        answer:
+          "Yes, but it’s important to learn proper techniques from a physiotherapist to avoid injury and ensure effectiveness.",
+      },
+    ],
+    image: "/assets/services/kneePain/kneepain_body.png",
+    content: `# Understanding Knee Pain
+Knee pain is a common complaint that can result from injury, arthritis, overuse, or other medical conditions. It often leads to swelling, stiffness, reduced mobility, and difficulty performing daily activities. Left untreated, knee pain can worsen and significantly impact your quality of life.
+# Our Comprehensive Knee Pain Management
+At Synergy Physiotherapy and Rehabilitation Center, we provide personalized physiotherapy programs designed to reduce pain, restore function, and improve strength and flexibility around the knee joint. Our goal is to help you return to your favorite activities with confidence and comfort.
+# What We Offer
+- Detailed Assessment: Our physiotherapists evaluate your knee’s condition, identify the root cause of your pain, and design a tailored treatment plan.
+- Targeted Exercise Therapy: We guide you through exercises such as straight leg raises, hamstring curls, wall squats, calf raises, and mini squats to strengthen muscles supporting the knee and improve joint stability.
+- Manual Therapy: Hands-on techniques to reduce stiffness, improve joint mobility, and relieve pain.
+- Cryotherapy and Heat Therapy: Use of cold and heat treatments to reduce inflammation and soothe sore tissues.
+- Electrotherapy and Hydrotherapy: Advanced modalities to promote healing and reduce discomfort.
+- Pain Management Guidance: Advice on medication use, activity modification, and lifestyle changes to support recovery.
+- Pre- and Post-Surgical Rehabilitation: Specialized programs to prepare for surgery or aid recovery afterward, ensuring optimal outcome.`,
+  },
+  {
     slug: "frozen-shoulder",
     title: "Frozen Shoulder",
     pageContentData: {
@@ -800,14 +891,15 @@ We strongly believe in the effectiveness of physiotherapy for hip issues. Our sk
       imagePath: "/assets/services/arthritis/banner.png",
     },
     conditions: [
-      "Hip Arthrosis",
-      "Congenital Dislocation of Hip",
-      "Avascular Necrosis of Femoral Head (AVN of Hip)",
-      "Osteitis Pubis",
-      "Piriformis Syndrome",
-      "Meralgia Paraesthetica",
-      "Total Hip Replacement (Post THR Rehab)",
-      "Post Fracture / Post-Surgery Hip Stiffness",
+      "Osteoarthritis (OA)",
+      "Rheumatoid Arthritis (RA)",
+      "Psoriatic Arthritis",
+      "Ankylosing Spondylitis",
+      "Juvenile Idiopathic Arthritis (JIA)",
+      "Post-Traumatic Arthritis",
+      "Reactive Arthritis (non-acute stage)",
+      "Lupus-related Joint Pain",
+      "Arthritis After Joint Replacement",
     ],
     FAQs: [
       {
@@ -1963,81 +2055,81 @@ Our team of highly skilled physiotherapists understands the complex nature of ch
 - **Nutritional Guidance:** A registered dietitian (if available) can help optimize your diet to provide essential nutrients for increased energy.
     `,
   },
-  {
-    slug: "respiratory-problems",
-    title: "Respiratory Problems",
-    pageContentData: {
-      name: "Respiratory Problems",
-      title: "Every breath matters revolutionary care for respiratory freedom!",
-      imagePath: "/assets/services/respiratory/banner.png",
-    },
-    FAQs: [
-      {
-        id: 1,
-        question: "What is respiratory physiotherapy?",
-        answer:
-          "Respiratory physiotherapy is a specialized therapy that helps people with breathing problems caused by conditions like asthma, COPD, pneumonia, or post-surgery complications. It aims to clear airways, improve lung function, and make breathing easier through exercises and techniques.",
-      },
-      {
-        id: 2,
-        question: "What conditions can respiratory physiotherapy help with?",
-        answer:
-          "It can help manage:\n• Chronic Obstructive Pulmonary Disease (COPD)\n• Asthma\n• Bronchitis or pneumonia\n• Cystic fibrosis\n• Post-surgical recovery (e.g., lung or heart surgery)\n• Neuromuscular diseases affecting breathing",
-      },
-      {
-        id: 3,
-        question: "What techniques are used in respiratory physiotherapy?",
-        answer:
-          "Some common techniques include:\n• Breathing exercises: To improve lung capacity and reduce shortness of breath.\n• Postural drainage: Using gravity to drain mucus from the lungs.\n• Chest percussion and vibration: To loosen mucus for easier clearance.\n• Cough training: To help expel mucus effectively.\n• Respiratory muscle training: To strengthen the muscles involved in breathing.",
-      },
-      {
-        id: 4,
-        question: "How does respiratory physiotherapy improve quality of life?",
-        answer:
-          "By improving lung function and clearing airways, respiratory physiotherapy reduces symptoms like breathlessness and fatigue, allowing patients to perform daily activities more comfortably and regain physical fitness.",
-      },
-      {
-        id: 5,
-        question: "Is respiratory physiotherapy safe for all ages?",
-        answer:
-          "Yes, it is safe for both children and adults when tailored to individual needs. Techniques are adjusted based on the patient’s age, condition, and tolerance level.",
-      },
-      {
-        id: 6,
-        question:
-          "How long does it take to see results from respiratory physiotherapy?",
-        answer:
-          "The time varies depending on the condition's severity. Some patients may notice improvements in breathing within a few sessions, while others with chronic conditions may need ongoing therapy for long-term benefits.",
-      },
-      {
-        id: 7,
-        question: "Can I do breathing exercises at home?",
-        answer:
-          "Yes, your physiotherapist will provide a personalized home exercise plan to complement clinic-based therapy. Regular practice at home helps maintain progress and manage symptoms effectively.",
-      },
-      {
-        id: 8,
-        question: "When should I seek respiratory physiotherapy?",
-        answer:
-          "You should consider it if you experience:\n• Persistent shortness of breath or difficulty breathing.\n• Frequent respiratory infections or mucus buildup.\n• Recovery from lung-related surgery or illness that affects your breathing capacity.\nEarly intervention can prevent complications and improve overall lung health.",
-      },
-    ],
+//   {
+//     slug: "respiratory-problems",
+//     title: "Respiratory Problems",
+//     pageContentData: {
+//       name: "Respiratory Problems",
+//       title: "Every breath matters revolutionary care for respiratory freedom!",
+//       imagePath: "/assets/services/respiratory/banner.png",
+//     },
+//     FAQs: [
+//       {
+//         id: 1,
+//         question: "What is respiratory physiotherapy?",
+//         answer:
+//           "Respiratory physiotherapy is a specialized therapy that helps people with breathing problems caused by conditions like asthma, COPD, pneumonia, or post-surgery complications. It aims to clear airways, improve lung function, and make breathing easier through exercises and techniques.",
+//       },
+//       {
+//         id: 2,
+//         question: "What conditions can respiratory physiotherapy help with?",
+//         answer:
+//           "It can help manage:\n• Chronic Obstructive Pulmonary Disease (COPD)\n• Asthma\n• Bronchitis or pneumonia\n• Cystic fibrosis\n• Post-surgical recovery (e.g., lung or heart surgery)\n• Neuromuscular diseases affecting breathing",
+//       },
+//       {
+//         id: 3,
+//         question: "What techniques are used in respiratory physiotherapy?",
+//         answer:
+//           "Some common techniques include:\n• Breathing exercises: To improve lung capacity and reduce shortness of breath.\n• Postural drainage: Using gravity to drain mucus from the lungs.\n• Chest percussion and vibration: To loosen mucus for easier clearance.\n• Cough training: To help expel mucus effectively.\n• Respiratory muscle training: To strengthen the muscles involved in breathing.",
+//       },
+//       {
+//         id: 4,
+//         question: "How does respiratory physiotherapy improve quality of life?",
+//         answer:
+//           "By improving lung function and clearing airways, respiratory physiotherapy reduces symptoms like breathlessness and fatigue, allowing patients to perform daily activities more comfortably and regain physical fitness.",
+//       },
+//       {
+//         id: 5,
+//         question: "Is respiratory physiotherapy safe for all ages?",
+//         answer:
+//           "Yes, it is safe for both children and adults when tailored to individual needs. Techniques are adjusted based on the patient’s age, condition, and tolerance level.",
+//       },
+//       {
+//         id: 6,
+//         question:
+//           "How long does it take to see results from respiratory physiotherapy?",
+//         answer:
+//           "The time varies depending on the condition's severity. Some patients may notice improvements in breathing within a few sessions, while others with chronic conditions may need ongoing therapy for long-term benefits.",
+//       },
+//       {
+//         id: 7,
+//         question: "Can I do breathing exercises at home?",
+//         answer:
+//           "Yes, your physiotherapist will provide a personalized home exercise plan to complement clinic-based therapy. Regular practice at home helps maintain progress and manage symptoms effectively.",
+//       },
+//       {
+//         id: 8,
+//         question: "When should I seek respiratory physiotherapy?",
+//         answer:
+//           "You should consider it if you experience:\n• Persistent shortness of breath or difficulty breathing.\n• Frequent respiratory infections or mucus buildup.\n• Recovery from lung-related surgery or illness that affects your breathing capacity.\nEarly intervention can prevent complications and improve overall lung health.",
+//       },
+//     ],
 
-    image: "/assets/services/respiratory/1.png",
-    content: `# Breathe Easier, Live Fuller: Synergy Physiotherapy's Respiratory Rehabilitation Program
-Struggling to catch your breath? Shortness of breath, wheezing, and chest tightness can significantly impact your daily life. At Synergy Physiotherapy Hospital and Rehabilitation Care, we offer a specialized Respiratory Rehabilitation Program to help you breathe easier and live a more active life.
+//     image: "/assets/services/respiratory/1.png",
+//     content: `# Breathe Easier, Live Fuller: Synergy Physiotherapy's Respiratory Rehabilitation Program
+// Struggling to catch your breath? Shortness of breath, wheezing, and chest tightness can significantly impact your daily life. At Synergy Physiotherapy Hospital and Rehabilitation Care, we offer a specialized Respiratory Rehabilitation Program to help you breathe easier and live a more active life.
 
-Our team of experienced physiotherapists understands the challenges of respiratory problems, from COPD and asthma to post-surgery complications. We'll conduct a detailed assessment to identify the root cause of your breathing difficulties and create a personalized treatment plan that may include:
+// Our team of experienced physiotherapists understands the challenges of respiratory problems, from COPD and asthma to post-surgery complications. We'll conduct a detailed assessment to identify the root cause of your breathing difficulties and create a personalized treatment plan that may include:
 
-- **Chest Clearance Techniques:** Manual techniques and exercises to help loosen and remove mucus buildup in your airways, improving airflow.
+// - **Chest Clearance Techniques:** Manual techniques and exercises to help loosen and remove mucus buildup in your airways, improving airflow.
 
-- **Breathing Exercises:** We'll teach you specific breathing techniques to improve lung capacity, control shortness of breath, and reduce anxiety.
+// - **Breathing Exercises:** We'll teach you specific breathing techniques to improve lung capacity, control shortness of breath, and reduce anxiety.
 
-- **Strength and Endurance Training:** Strengthening exercises for your respiratory muscles can enhance your ability to breathe more effectively.
+// - **Strength and Endurance Training:** Strengthening exercises for your respiratory muscles can enhance your ability to breathe more effectively.
 
-- **Education and Self-Management:** We empower you with the knowledge and skills to manage your condition effectively, including proper inhaler technique and medication adherence.
-    `,
-  },
+// - **Education and Self-Management:** We empower you with the knowledge and skills to manage your condition effectively, including proper inhaler technique and medication adherence.
+//     `,
+//   },
   {
     slug: "burns",
     title: "Burns",

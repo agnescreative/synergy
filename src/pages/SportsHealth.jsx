@@ -8,7 +8,7 @@ const SportsHealth = () => {
   const isInView = useInView(ref, { amount: 0.25, once: true });
   const pageContentData = {
     name: "Sports Health",
-    title: "World's Leading, Robotic Neuro Rehabilitation Treatment",
+    title: "Recover Fast, Perform Strong: Sports Rehabilitation That Restores Your Edge",
     imagePath: "/assets/specializations/sports.png",
   };
 
@@ -66,7 +66,7 @@ const SportsHealth = () => {
                     }
                   >
                     <MarkdownRenderer>
-                      {`#Achieve Peak Performance: Sports Rehabilitation at Synergy Physiotherapy
+                      {`
 
 Getting sidelined by an injury can be frustrating for any athlete. At Synergy Physiotherapy Hospital and Rehabilitation Care, our dedicated team of sports rehabilitation specialists understands the importance of getting you back in the game quickly and safely. We offer personalized treatment plans designed to not only heal your injury but also optimize your performance and prevent future setbacks.
 
