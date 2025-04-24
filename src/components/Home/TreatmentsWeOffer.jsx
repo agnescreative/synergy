@@ -17,7 +17,7 @@ const cardsData = [
   {
     title: "Knee Pain",
     description:
-      "Knee pain is a common complaint that can result from injury, arthritis, overuse, or other medical conditions. Read more...",
+      "Knee pain is a common and often persistent complaint that can result from injury, arthritis, overuse, or various other medical conditions. Read more...",
     imageUrl: "/assets/carousel/kneepain.jpeg",
     href: "/services/knee-pain",
   },
