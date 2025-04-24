@@ -16,7 +16,7 @@ export const About = () => {
             { title: "Our People", divId: "our-people" },
             { title: "Our Infrastructure", divId: "our-infrastructure" },
         ],
-        imagePath: '/assets/synergyoffice.jpg',
+        imagePath: '/assets/infrastructure/17.jpg',
     }
 
   return (

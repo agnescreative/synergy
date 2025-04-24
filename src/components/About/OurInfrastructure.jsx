@@ -5,7 +5,6 @@ import Container from "../Container.jsx";
 
 const images = [
 
-  "/assets/infrastructure/3.jpg",
   "/assets/infrastructure/6.jpg",
   "/assets/infrastructure/7.jpg",
   "/assets/infrastructure/8.jpg",
@@ -16,6 +15,7 @@ const images = [
   "/assets/infrastructure/16.jpg",
   "/assets/infrastructure/17.jpg",
   "/assets/infrastructure/19.jpg",
+  
 ];
 
 export const OurInfrastructure = () => {

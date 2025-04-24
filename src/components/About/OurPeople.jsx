@@ -64,6 +64,14 @@ export const OurPeople = () => {
               );
             })}
           </div>
+          <div className=" space-y-8">
+          <p
+              className={"font-serif-light font-semibold text-3xl xl:text-5xl"}
+            >
+              Our Team
+            </p>
+            <img src="/assets/ourTeam/ourTeam.JPG" alt="our team" className="w-full h-auto xl:h-[500px] object-cover" />
+          </div>
         </div>
       </div>
     </Container>
